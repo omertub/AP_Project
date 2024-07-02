@@ -2,9 +2,9 @@ package configs;
 
 import java.util.function.BinaryOperator;
 
-import test.Agent;
-import test.Message;
-import test.TopicManagerSingleton;
+import graph.Agent;
+import graph.Message;
+import graph.TopicManagerSingleton;
 
 public class BinOpAgent implements Agent {
     private final String name;

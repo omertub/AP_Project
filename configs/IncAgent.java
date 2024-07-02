@@ -1,4 +1,8 @@
-package test;
+package configs;
+
+import graph.Agent;
+import graph.Message;
+import graph.TopicManagerSingleton;
 
 public class IncAgent implements Agent{
     private String name = "IncAgent";

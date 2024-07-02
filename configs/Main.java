@@ -1,8 +1,6 @@
 package configs;
 
-import test.GenericConfig;
-import test.Graph;
-import test.Node;
+import graph.Graph;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,6 +1,9 @@
-package test;
+package graph;
 
 import java.util.Set;
+
+import configs.Config;
+import configs.GenericConfig;
 
 public class GraphTest {
 

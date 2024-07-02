@@ -1,10 +1,15 @@
-package test;
+package configs;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.lang.reflect.Constructor;
 import java.util.ArrayList;
 import java.util.List;
+
+import graph.Agent;
+import graph.ParallelAgent;
+import graph.Topic;
+import graph.TopicManagerSingleton;
 
 public class GenericConfig implements Config {
 	private String confFile;
